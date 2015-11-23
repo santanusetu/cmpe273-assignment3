@@ -3,7 +3,7 @@
 UBER trip planner implementation that take a set of locations from MongoDB and then check against UBER’s price estimates API to suggest the best possible route in terms of costs and duration.
 
 
-
+<pre>
 1. POST        /trips   # Plan a trip
 
 Request:
@@ -88,3 +88,4 @@ Response:
   "total_distance": 23.15,
   "uber_wait_time_eta": 3
 }
+</pre>
