@@ -2,6 +2,14 @@
 
 UBER trip planner implementation that take a set of locations from MongoDB and then check against UBER’s price estimates API to suggest the best possible route in terms of costs and duration.
 
+<pre><code>
+Location to ObjectId Mapping:
+1. Fairmont Hotel San Francisco (950 Mason St, San Francisco, CA 94108) --> 5652ac8f649f5c6b10822e9a
+2. Golden Gate Bridge, California --> 5652ac9d649f5c6b10822e9b
+3. Pier 39 (Beach Street & The Embarcadero, San Francisco, CA 94133) --> 5652aca8649f5c6b10822e9c
+4. Golden Gate Park --> 5652acb2649f5c6b10822e9d
+5. Twin Peaks (501 Twin Peaks Blvd, San Francisco, CA 94114) --> 5652acbe649f5c6b10822e9e
+</code></pre>
 
 <pre>
 1. POST        /trips   # Plan a trip
